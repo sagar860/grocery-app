@@ -1,0 +1,42 @@
+.main_title{
+    font-size: 25px;
+    margin: 60px 30px -6px;
+    font-weight: 600;
+    color: green;
+    letter-spacing: 1px;
+}
+.category_products{
+    width: 85%;
+    height: auto;
+    margin: 30px 30px 30px 40px;
+    padding: 2px;
+}
+.categorymain_image{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    background-color: lightyellow;
+    cursor: pointer;
+    padding: 0.5px;
+    margin-top: 10px;
+    
+
+}
+.category{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+
+}
+.category_title{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: green;
+}
